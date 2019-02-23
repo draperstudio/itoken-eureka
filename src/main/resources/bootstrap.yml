@@ -5,3 +5,11 @@ spring:
       name: itoken-eureka
       label: master
       profile: dev
+      fail-fast: true
+eureka:
+  instance:
+    hostname: itoken-eureka
+    prefer-ip-address: true
+
+
+
