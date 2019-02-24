@@ -1,10 +1,10 @@
 spring:
   cloud:
     config:
-      uri: http://localhost:8888/
+      uri: http://172.17.11.220:8888/
       name: itoken-eureka
       label: master
-      profile: dev
+      profile: prod
       fail-fast: true
 eureka:
   instance:
